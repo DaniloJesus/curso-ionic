@@ -14,6 +14,13 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'feed.html',
 })
 export class FeedPage {
+  public objeto_feed = {
+    titulo:"Nine Inch Nails Live JSON",
+    descricao:"JSON The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.",
+    likes: 12,
+    comments: 4,
+    when: "11h ago"
+  }
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
